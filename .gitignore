@@ -1,0 +1,32 @@
+######################
+# 过滤中间文件
+######################
+bin/
+doxygen/
+obj/
+*.depend
+*.layout
+*.out
+*.exe
+temp*
+main.dSYM/
+Untitled*
+main
+# Local History for Visual Studio Code
+.history/
+
+######################
+# 解决各类编辑器自动产生的文件
+######################
+*.iml
+*.cbp
+.vscode/
+.idea/
+cmake-build-debug/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+*.xml
+*.txt
